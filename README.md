@@ -1,6 +1,9 @@
 ## run docker-compose with database
 docker-compose up -d
 
+## if yoy want run app
+mvn spring-boot:run
+
 ## run jar
 maven package
 o

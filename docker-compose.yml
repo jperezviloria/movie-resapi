@@ -15,10 +15,8 @@ services:
     volumes:
       - ~/dockerdb/sqlserver-data:/var/opt/mssql
 
-#  springboot-movie:
-#    image: movieapp
-#    container_name: springboot-movieapp
-#    ports:
-#      - 8081:8081
-#    links:
-#      - sqlserver
+  springboot-movie:
+    image: movieapp
+    container_name: springboot-movieapp
+    ports:
+      - "8081:8081"
