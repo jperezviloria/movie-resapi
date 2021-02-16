@@ -1,13 +1,13 @@
-##run docker-compose with database
+## run docker-compose with database
 docker-compose up -d
 
-##run jar
+## run jar
 mvn clean install
 
-##build Dockerfile
+## build Dockerfile
 docker build -t NOMBREAPP .
 
-##run Dockerfile
+## run Dockerfile
 docker run NOMBREAPP
 
-##create docker-compose to run dockerfile linked with database container
+## create docker-compose to run dockerfile linked with database container
