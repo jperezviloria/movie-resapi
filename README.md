@@ -2,7 +2,11 @@
 docker-compose up -d
 
 ## run jar
+maven package
+o
 mvn clean install
+o
+mvn install
 
 ## build Dockerfile
 docker build -t NOMBREAPP .
